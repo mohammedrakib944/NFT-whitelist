@@ -1,0 +1,2 @@
+client_site > package.json > "homepage": "http://moonflex.xyz/", //or any domain
+server_site > package.json > "scripts": > "production": "cross-env NODE_ENV=production node server.js",
