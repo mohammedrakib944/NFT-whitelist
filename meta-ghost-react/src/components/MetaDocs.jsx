@@ -6,7 +6,7 @@ import { HiServer } from "react-icons/hi";
 const MetaDocs = () => {
   return (
     <div>
-      <div className="grid md:grid-cols-3 gap-x-10 gap-y-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-6">
         <div>
           <p className="text-gray-500 text-sm">MINT DATE</p>
           <p className="text-gray-200 ">TBA PHASE 2</p>

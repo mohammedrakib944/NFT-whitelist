@@ -76,12 +76,12 @@ const Register = () => {
   return (
     <>
       <ToastContainer position="bottom-center" theme="colored" />
-      <div className="shadow-xl bg-gray-800/80 md:backdrop-blur-xl min-w-[350px] max-w-[450px] rounded-xl p-6 mt-10 md:-mt-80 ">
+      <div className="shadow-xl bg-gray-800/80 md:backdrop-blur-xl min-w-[350px] max-w-[450px] rounded-xl p-6 mt-10 md:-mt-80">
         <h3 className="pb-3 text-4xl font-bold text-gray-100">Register</h3>
         {stepOneIsShow && (
           <div>
             <p className="text-gray-400 font-bold pb-3">
-              Follow the steps below to add yourself to this list.
+              Follow the steps to add yourself to the Flexlist.
             </p>
             <div className="flex gap-4">
               <button
@@ -141,7 +141,7 @@ const Register = () => {
 
             <div className="">
               <p className="text-gray-300 text-sm">
-                ✉️ Get email updates and mint reminder by email
+                ✉️ Get announcements and the mint reminder by email
               </p>
               <input
                 className="border border-gray-500/50 w-full bg-gray-800 focus:outline-none mt-4 p-3 text-sm rounded-md text-gray-100"

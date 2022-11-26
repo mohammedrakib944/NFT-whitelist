@@ -15,7 +15,7 @@ app.use(
 );
 
 // DATABASE SETUP
-const mongoURL = `mongodb+srv://buzzam:buzzam@cluster0.q4yi4jz.mongodb.net/meta?retryWrites=true&w=majority`;
+const mongoURL = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0.q4yi4jz.mongodb.net/meta?retryWrites=true&w=majority`;
 mongoose
   .connect(mongoURL, {
     useNewUrlParser: true,

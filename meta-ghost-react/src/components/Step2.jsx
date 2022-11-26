@@ -46,7 +46,8 @@ const Step2 = () => {
       </button>
 
       <p className="text-sky-400">
-        If your deposit is not finalized, you will not be on the waiting list.
+        If your deposit is not finalized, we will not include you on the
+        waitlist and you will not be able to MINT your NFT.
       </p>
     </div>
   );
